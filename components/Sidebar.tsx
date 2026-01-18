@@ -20,7 +20,9 @@ export const Sidebar: React.FC = () => {
           ${isActive ? 'ring-2 ring-primary/50' : ''}
         `}
       >
-        <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>train</span>
+        <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>
+          train
+        </span>
       </NavLink>
 
       {/* Nav Items */}

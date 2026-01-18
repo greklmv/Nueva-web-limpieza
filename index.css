@@ -4,19 +4,19 @@
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+  width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
-    background: transparent; 
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: #cbd5e1; 
-    border-radius: 3px;
+  background: #cbd5e1;
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8; 
+  background: #94a3b8;
 }
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }

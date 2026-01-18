@@ -1,6 +1,6 @@
 export enum TrainStatus {
   PENDING = 'Pending',
-  VALIDATED = 'Validated'
+  VALIDATED = 'Validated',
 }
 
 export interface Train {
@@ -19,11 +19,4 @@ export interface ValidationFormState {
   incidentDescription: string;
 }
 
-export const TASK_OPTIONS = [
-  "Fondo",
-  "Rodadura",
-  "Limpieza",
-  "Revisión",
-  "Mecánica",
-  "Eléctrica"
-];
+export const TASK_OPTIONS = ['Fondo', 'Rodadura', 'Limpieza', 'Revisión', 'Mecánica', 'Eléctrica'];
